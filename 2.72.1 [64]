@@ -1,17 +1,3 @@
-printx="---------------------------------------------------------------" 
-File = gg.getFile():match('[^/]+$') 
-name = 'xiushan Guardian Tales v2.72.1 [x64].lua'
-if File == name then
-else
-gg.alert("⚠️Don't Change Script Name⚠️")
-print(printx)
- print("Script Made By XIU")
- print("Telegram: https://t.me/xiuushan")
- print("YouTube : https://youtube.com/@xiuushan")
- print(printx)
-return
-end
-
 LUA = 'Script Made By XIU'
 GLabel = 'Guardian Tales'
 GProcess = 'com.kakaogames.gdts'
