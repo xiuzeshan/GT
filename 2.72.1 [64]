@@ -24,16 +24,16 @@ print("Script: "..GLabel.."  "..GVersion)
 --███████████████████████
 gg.require('101.1')
 xiu=1
-gg.setVisible(false)
-v=gg.getTargetInfo()
+gg.paznxbhzuaaj(false)
+v=gg.bdhdhshsjaka()
     if v==nil then
         print("×× ERROR ××\n×× INVALID PROCESS SELECTED / OR NO ROOT ACCESS") 
-        gg.setVisible(true) os.exit()
+        gg.paznxbhzuaaj(true) os.exit()
         return
     end 
 ------------------------------------------------------------------------------
 
-gg.setRanges(gg.REGION_ANONYMOUS) 
+gg.spsldjjdjj(gg.REGION_ANONYMOUS) 
 ------------------------------------------------------------------------------
 OFF="× " ON="√ "
 AB=OFF CD=OFF EF=OFF GH=OFF IJ=OFF KL=OFF
@@ -42,7 +42,7 @@ AB=OFF CD=OFF EF=OFF GH=OFF IJ=OFF KL=OFF
 xiushan cantik()
 xiu=0
 gg.toast(xTAGx)  
-mc=gg.multiChoice({
+mc=gg.aposnxnxbxhjjj({
 	AB.."Damage",
 	CD.."Defense",
 	EF.."Speed",
@@ -321,12 +321,12 @@ end
 
 xiushan seven()
 gg.clearResults()
-gg.ozzkxnxn("1056964608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.ozzkxnxn("1056964608", gg.SBJJKIKKK, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.processResume()
-gg.refineNumber("1056964608;1056964608::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.refineNumber("1056964608;1056964608::5", gg.SBJJKIKKK, false, gg.SIGN_EQUAL, 0, -1, 0)
 gg.processResume()
-revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
-gg.editAll("0", gg.TYPE_DWORD)
+revert = gg.getResults(6000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.SBJJKIKKK)
 gg.processResume()
 gg.clearResults()
 end
@@ -346,7 +346,7 @@ end
 --███████████████████████
     if v.processName~=GProcess then
         print("This Script is For:\n    "..GLabel.."\n    "..GProcess.."\nYou Selected:\n    "..v.label.."\n    "..v.processName)
-        gg.setVisible (true) os.exit()
+        gg.paznxbhzuaaj (true) os.exit()
         return
     end 
 ------------------------------------------------------------------------------
@@ -356,14 +356,14 @@ end
     if xREQ==1 then 
         if bitx~=xbit then 
             print("This Script is For "..xbit.."bit Process\nYour Process is "..bitx.."bit")
-            gg.setVisible(true) os.exit()
+            gg.paznxbhzuaaj(true) os.exit()
             return
         end 
     end 
 ------------------------------------------------------------------------------
     if GVersion~=v.versionName then
         print("This Script is for Game Version:\n    "..GVersion.."\nYour Game Version is:\n    "..v.versionName) 
-        gg.setVisible(true) os.exit() 
+        gg.paznxbhzuaaj(true) os.exit() 
         return
     end 
 ------------------------------------------------------------------------------
@@ -377,13 +377,13 @@ nLD=v.nativeLibraryDir
         libx=gg.xiuushan()
             if #(libx)==0 then 
                 print("×× LIB ERROR #01 ××\nNo Libs Found\nTry a Different Virtual Environment \nor Try a Better Game Installation Methof\nor Download Game From 'apkcombo.com' ")
-                gg.setVisible(true) os.exit()
+                gg.paznxbhzuaaj(true) os.exit()
                 return
             end
         libx=gg.xiuushan("libil2cpp.so")
             if #(libx)==0 then  
                 print("×× LIB ERROR #01 ××\nNo Libs Found\nTry a Different Virtual Environment \nor Try a Better Game Installation Methof\nor Download Game From 'apkcombo.com' ")
-                gg.setVisible(true) os.exit()
+                gg.paznxbhzuaaj(true) os.exit()
                 return
             end
             xlibn=0 xLibRes=0 
@@ -407,7 +407,7 @@ nLD=v.nativeLibraryDir
             ifellib=gg.prompt({
                 "## ERROR ##\nlibil2cpp.so in Xa was Not found\nEnter the Number of the Lib you want from the list below.\n*** Accurate Script Hacks not Guaranteed ***",
                 xlibres},nil,{[1]="number", [2]="checkbox"})
-                if ifellib==nil then print("Script Cancelled by User\nNo Lib Selected") gg.setVisible(true) os.exit() return end
+                if ifellib==nil then print("Script Cancelled by User\nNo Lib Selected") gg.paznxbhzuaaj(true) os.exit() return end
                 if #(ifellib[1])==0 then gg.toast("INCOMPLETE") goto SELLIB return end 
                 if type(tonumber(ifellib[1]))~="number" then gg.toast("INVALID NUMBER") goto SELLIB return end
             xlibn=tonumber(ifellib[1])
@@ -503,18 +503,18 @@ gg.toast("[ EXIT ]")
         print("- Wallhack")
         print(printx)  
     end 
-gg.setVisible(true) 
+gg.paznxbhzuaaj(true) 
 os.exit()
 return
 end 
 --███████████████████████
 while true do
     if gg.isVisible() then
-        gg.setVisible(false) 
+        gg.paznxbhzuaaj(false) 
         cantik() 
     else
         if xiu==1 then
-            gg.setVisible(false) 
+            gg.paznxbhzuaaj(false) 
             cantik()
         end 
     end 
