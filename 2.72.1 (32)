@@ -1,19 +1,20 @@
 --CAPE WOYYYYYY
+--PARAH BANGET
 --PARAH SIH
 LUA = 'Script Made By XIU'
 GLabel = 'Guardian Tales'
 GProcess = 'com.kakaogames.gdts'
 GVersion = '2.72.1'
-xbit = 64 
-xlib = 'libil2cpp.so[2].start' 
+xbit = 32 
+xlib = 'libil2cpp.so[1].start' 
 LibResult = 1 
 xREV = 0
 xREQ = 1
 ------------------------------------------------------------------------------
 xTAGx="Script Made By XIU"
-xTELEx="https://t.me/xiuucantik" 
-xYTx="https://youtube.com/@xiupencurihandal"
-XIUSN=xs.getFile():match('[^/]+$') 
+xTELEx="https://t.me/xiuushan" 
+xYTx="https://youtube.com/@xiuushan"
+VPESN=xs.getFile():match('[^/]+$') 
 printx="---------------------------------------------------------------" 
 print(printx)
 print(xTAGx)
@@ -41,7 +42,7 @@ OFF="× " ON="√ "
 AB=OFF CD=OFF EF=OFF GH=OFF IJ=OFF KL=OFF
 
 
-function cantik()
+function menu()
 xiu=0
 xs.toast(xTAGx)  
 mc=xs.multiChoice({
@@ -76,32 +77,32 @@ xs.toast("[√] Complete")
 end
 --███████████████████████
 
-function one()
+function one() --wson
 if AB==OFF then
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x4455a68
-XIU[1].value='h00F0271E'
+XIU[1].address=LibStart+0x464c8f4
+XIU[1].value='h7A0444E3'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x4455a68+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].address=LibStart+(0x464c8f4+0x4)
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 xs.setValues(XIU)
 AB=ON
 else
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x4455a68
-XIU[1].value='hFF8301D1'
+XIU[1].address=LibStart+0x464c8f4
+XIU[1].value='hF04B2DE9'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x4455a68+0x4)
-XIU[2].value='hE81300FD'
+XIU[2].address=LibStart+(0x464c8f4+0x4)
+XIU[2].value='h028B2DED'
 XIU[2].flags=4
 xs.setValues(XIU)
 AB=OFF
@@ -109,56 +110,56 @@ end
 end
 
 
-function two()
+function two() --wson
 if CD==OFF then
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x4455324
-XIU[1].value='h00F0271E'
+XIU[1].address=LibStart+0x464c01c
+XIU[1].value='h7A0444E3'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x4455324+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].address=LibStart+(0x464c01c+0x4)
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 xs.setValues(XIU)
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x44567d8
-XIU[1].value='h00F0271E'
+XIU[1].address=LibStart+0x464d94c
+XIU[1].value='h7A0444E3'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x44567d8+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].address=LibStart+(0x464d94c+0x4)
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 xs.setValues(XIU)
 CD=ON
 else
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x4455324
-XIU[1].value='hE80F1CFC'
+XIU[1].address=LibStart+0x464c01c
+XIU[1].value='hF0472DE9'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x4455324+0x4)
-XIU[2].value='hF80700F9'
+XIU[2].address=LibStart+(0x464c01c+0x4)
+XIU[2].value='h028B2DED'
 XIU[2].flags=4
 xs.setValues(XIU)
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x44567d8
-XIU[1].value='hFF8301D1'
+XIU[1].address=LibStart+0x464d94c
+XIU[1].value='hF04B2DE9'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x44567d8+0x4)
-XIU[2].value='hE81300FD'
+XIU[2].address=LibStart+(0x464d94c+0x4)
+XIU[2].value='h028B2DED'
 XIU[2].flags=4
 xs.setValues(XIU)
 CD=OFF
@@ -166,56 +167,56 @@ end
 end
 
 
-function three()
+function three()  --wson
 if EF==OFF then
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x474095c
-XIU[1].value='h400080D2'
+XIU[1].address=LibStart+0x49e3abc
+XIU[1].value='hC80244E3'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x474095c+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].address=LibStart+(0x49e3abc+0x4)
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 xs.setValues(XIU)
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x47497f0
-XIU[1].value='h400080D2'
+XIU[1].address=LibStart+0x49ef270
+XIU[1].value='h0000A0E3'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x47497f0+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].address=LibStart+(0x49ef270+0x4)
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 xs.setValues(XIU)
 EF=ON
 else
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x474095c
-XIU[1].value='hFFC300D1'
+XIU[1].address=LibStart+0x49e3abc
+XIU[1].value='h70402DE9'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x474095c+0x4)
-XIU[2].value='hF37B02A9'
+XIU[2].address=LibStart+(0x49e3abc+0x4)
+XIU[2].value='h10D04DE2'
 XIU[2].flags=4
 xs.setValues(XIU)
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x47497f0
-XIU[1].value='hED33B76D'
+XIU[1].address=LibStart+0x49ef270
+XIU[1].value='hF04F2DE9'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x47497f0+0x4)
-XIU[2].value='hEB2B016D'
+XIU[2].address=LibStart+(0x49ef270+0x4)
+XIU[2].value='h04D04DE2'
 XIU[2].flags=4
 xs.setValues(XIU)
 EF=OFF
@@ -223,32 +224,32 @@ end
 end
 
 
-function four()
+function four() --wson
 if GH==OFF then
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x5de3b7c
-XIU[1].value='h600B80D2'
+XIU[1].address=LibStart+0x66b2f84
+XIU[1].value='h5B0000E3'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x5de3b7c+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].address=LibStart+(0x66b2f84+0x4)
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 xs.setValues(XIU)
 GH=ON
 else
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x5de3b7c
-XIU[1].value='hFF4301D1'
+XIU[1].address=LibStart+0x66b2f84
+XIU[1].value='hF0482DE9'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x5de3b7c+0x4)
-XIU[2].value='hF55303A9'
+XIU[2].address=LibStart+(0x66b2f84+0x4)
+XIU[2].value='h20D04DE2'
 XIU[2].flags=4
 xs.setValues(XIU)
 GH=OFF
@@ -256,32 +257,32 @@ end
 end
 
 
-function five()
+function five() --wson
 if IJ==OFF then
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x5de31a4
-XIU[1].value='h200080D2'
+XIU[1].address=LibStart+0x66b2368
+XIU[1].value='h0100A0E3'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x5de31a4+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].address=LibStart+(0x66b2368+0x4)
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 xs.setValues(XIU)
 IJ=ON
 else
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x5de31a4
-XIU[1].value='hFF8301D1'
+XIU[1].address=LibStart+0x66b2368
+XIU[1].value='hF04B2DE9'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x5de31a4+0x4)
-XIU[2].value='hF61B00F9'
+XIU[2].address=LibStart+(0x66b2368+0x4)
+XIU[2].value='h18D04DE2'
 XIU[2].flags=4
 xs.setValues(XIU)
 IJ=OFF
@@ -289,32 +290,32 @@ end
 end
 
 
-function six()
+function six() --wson
 if KL==OFF then
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x382db30
-XIU[1].value='h000080D2'
+XIU[1].address=LibStart+0x36eef84
+XIU[1].value='hC80244E3'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x382db30+0x4)
-XIU[2].value='hC0035FD6'
+XIU[2].address=LibStart+(0x36eef84+0x4)
+XIU[2].value='h1EFF2FE1'
 XIU[2].flags=4
 xs.setValues(XIU)
 KL=ON
 else
-LibStart=xs.GetRangesList('libil2cpp.so')[2].start
+LibStart=xs.GetRangesList('libil2cpp.so')[1].start
 XIU=nil
 XIU={}
 XIU[1]={}
 XIU[2]={}
-XIU[1].address=LibStart+0x382db30
-XIU[1].value='hFF0301D1'
+XIU[1].address=LibStart+0x36eef84
+XIU[1].value='h70402DE9'
 XIU[1].flags=4
-XIU[2].address=LibStart+(0x382db30+0x4)
-XIU[2].value='hE81300FD'
+XIU[2].address=LibStart+(0x36eef84+0x4)
+XIU[2].value='h028B2DED'
 XIU[2].flags=4
 xs.setValues(XIU)
 KL=OFF
@@ -406,13 +407,13 @@ nLD=v.nativeLibraryDir
                 end
             xlibres=tostring(table.concat(xlibt,"\n\n"))
             ::SELLIB::
-            ifellib=xs.prompt({
+            xsellib=xs.prompt({
                 "## ERROR ##\nlibil2cpp.so in Xa was Not found\nEnter the Number of the Lib you want from the list below.\n*** Accurate Script Hacks not Guaranteed ***",
                 xlibres},nil,{[1]="number", [2]="checkbox"})
-                if ifellib==nil then print("Script Cancelled by User\nNo Lib Selected") xs.setVisible(true) os.exit() return end
-                if #(ifellib[1])==0 then xs.toast("INCOMPLETE") goto SELLIB return end 
-                if type(tonumber(ifellib[1]))~="number" then xs.toast("INVALID NUMBER") goto SELLIB return end
-            xlibn=tonumber(ifellib[1])
+                if xsellib==nil then print("Script Cancelled by User\nNo Lib Selected") xs.setVisible(true) os.exit() return end
+                if #(xsellib[1])==0 then xs.toast("INCOMPLETE") goto SELLIB return end 
+                if type(tonumber(xsellib[1]))~="number" then xs.toast("INVALID NUMBER") goto SELLIB return end
+            xlibn=tonumber(xsellib[1])
             xXIUx=xs.GetRangesList("libil2cpp.so")[xlibn].start
             print("## libil2cpp.so["..xlibn.."].start Manually Selected by User ##")
             print("## "..tostring(xlibt[xlibn]).." ##") 
@@ -502,7 +503,6 @@ xs.toast("[ EXIT ]")
         print("- MLB All Character")
         print("- Training All Character")
         print("- No Cooldown Skill")
-        print("- Wallhack")
         print(printx)  
     end 
 xs.setVisible(true) 
@@ -513,11 +513,11 @@ end
 while true do
     if xs.isVisible() then
         xs.setVisible(false) 
-        cantik() 
+        menu() 
     else
         if xiu==1 then
             xs.setVisible(false) 
-            cantik()
+            menu()
         end 
     end 
 end 
