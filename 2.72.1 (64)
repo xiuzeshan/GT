@@ -1,0 +1,521 @@
+LUA = 'Script Made By XIU'
+GLabel = 'Guardian Tales'
+GProcess = 'com.kakaogames.gdts'
+GVersion = '2.72.1'
+xbit = 64 
+xlib = 'libil2cpp.so[2].start' 
+LibResult = 1 
+xREV = 0
+xREQ = 1
+------------------------------------------------------------------------------
+xTAGx="Script Made By XIU"
+xTELEx="https://t.me/xiuucantik" 
+xYTx="https://youtube.com/@xiupencurihandal"
+XIUSN=gg.getFile():match('[^/]+$') 
+printx="---------------------------------------------------------------" 
+print(printx)
+print(xTAGx)
+print('"Follow My Telegram and YouTube For Any Update"')  
+print("Telegram: "..xTELEx)
+print("YouTube : "..xYTx)
+print(printx)  
+print("Script: "..GLabel.."  "..GVersion)
+
+--███████████████████████
+gg.require('101.1')
+xiu=1
+gg.setVisible(false)
+v=gg.getTargetInfo()
+    if v==nil then
+        print("×× ERROR ××\n×× INVALID PROCESS SELECTED / OR NO ROOT ACCESS") 
+        gg.setVisible(true) os.exit()
+        return
+    end 
+------------------------------------------------------------------------------
+
+gg.setRanges(gg.REGION_ANONYMOUS) 
+------------------------------------------------------------------------------
+OFF="× " ON="√ "
+AB=OFF CD=OFF EF=OFF GH=OFF IJ=OFF KL=OFF
+
+
+function cantik()
+xiu=0
+gg.toast(xTAGx)  
+mc=gg.multiChoice({
+	AB.."Damage",
+	CD.."Defense",
+	EF.."Speed",
+	GH.."MLB All Character",
+	IJ.."Training All Character",
+	KL.."No Cooldown Skill",
+	"Wallhack",
+	"[EXIT]"},
+    {},xTAGx.."\n"..GLabel.." "..GVersion.." "..xBITx)
+	
+xhaX={
+	}
+xhaX=table.concat(xhaX, "\n")
+xhaX=tostring(xhaX)
+ 
+    if mc==nil then cancel() return end
+	if mc[8] then exit() return end
+	if mc[1] then one() end 
+	if mc[2] then two() end 
+	if mc[3] then three() end
+	if mc[4] then four() end
+	if mc[5] then five() end
+	if mc[6] then six() end
+	if mc[7] then seven() end
+	
+
+gg.toast("[√] Complete") 
+
+end
+--███████████████████████
+
+function one()
+if AB==OFF then
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x4455a68
+XIU[1].value='h00F0271E'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x4455a68+0x4)
+XIU[2].value='hC0035FD6'
+XIU[2].flags=4
+gg.setValues(XIU)
+AB=ON
+else
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x4455a68
+XIU[1].value='hFF8301D1'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x4455a68+0x4)
+XIU[2].value='hE81300FD'
+XIU[2].flags=4
+gg.setValues(XIU)
+AB=OFF
+end
+end
+
+
+function two()
+if CD==OFF then
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x4455324
+XIU[1].value='h00F0271E'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x4455324+0x4)
+XIU[2].value='hC0035FD6'
+XIU[2].flags=4
+gg.setValues(XIU)
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x44567d8
+XIU[1].value='h00F0271E'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x44567d8+0x4)
+XIU[2].value='hC0035FD6'
+XIU[2].flags=4
+gg.setValues(XIU)
+CD=ON
+else
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x4455324
+XIU[1].value='hE80F1CFC'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x4455324+0x4)
+XIU[2].value='hF80700F9'
+XIU[2].flags=4
+gg.setValues(XIU)
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x44567d8
+XIU[1].value='hFF8301D1'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x44567d8+0x4)
+XIU[2].value='hE81300FD'
+XIU[2].flags=4
+gg.setValues(XIU)
+CD=OFF
+end
+end
+
+
+function three()
+if EF==OFF then
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x474095c
+XIU[1].value='h400080D2'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x474095c+0x4)
+XIU[2].value='hC0035FD6'
+XIU[2].flags=4
+gg.setValues(XIU)
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x47497f0
+XIU[1].value='h400080D2'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x47497f0+0x4)
+XIU[2].value='hC0035FD6'
+XIU[2].flags=4
+gg.setValues(XIU)
+EF=ON
+else
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x474095c
+XIU[1].value='hFFC300D1'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x474095c+0x4)
+XIU[2].value='hF37B02A9'
+XIU[2].flags=4
+gg.setValues(XIU)
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x47497f0
+XIU[1].value='hED33B76D'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x47497f0+0x4)
+XIU[2].value='hEB2B016D'
+XIU[2].flags=4
+gg.setValues(XIU)
+EF=OFF
+end
+end
+
+
+function four()
+if GH==OFF then
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x5de3b7c
+XIU[1].value='h600B80D2'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x5de3b7c+0x4)
+XIU[2].value='hC0035FD6'
+XIU[2].flags=4
+gg.setValues(XIU)
+GH=ON
+else
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x5de3b7c
+XIU[1].value='hFF4301D1'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x5de3b7c+0x4)
+XIU[2].value='hF55303A9'
+XIU[2].flags=4
+gg.setValues(XIU)
+GH=OFF
+end
+end
+
+
+function five()
+if IJ==OFF then
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x5de31a4
+XIU[1].value='h200080D2'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x5de31a4+0x4)
+XIU[2].value='hC0035FD6'
+XIU[2].flags=4
+gg.setValues(XIU)
+IJ=ON
+else
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x5de31a4
+XIU[1].value='hFF8301D1'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x5de31a4+0x4)
+XIU[2].value='hF61B00F9'
+XIU[2].flags=4
+gg.setValues(XIU)
+IJ=OFF
+end
+end
+
+
+function six()
+if KL==OFF then
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x382db30
+XIU[1].value='h000080D2'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x382db30+0x4)
+XIU[2].value='hC0035FD6'
+XIU[2].flags=4
+gg.setValues(XIU)
+KL=ON
+else
+LibStart=gg.GetRangesList('libil2cpp.so')[2].start
+XIU=nil
+XIU={}
+XIU[1]={}
+XIU[2]={}
+XIU[1].address=LibStart+0x382db30
+XIU[1].value='hFF0301D1'
+XIU[1].flags=4
+XIU[2].address=LibStart+(0x382db30+0x4)
+XIU[2].value='hE81300FD'
+XIU[2].flags=4
+gg.setValues(XIU)
+KL=OFF
+end
+end
+
+function seven()
+gg.clearResults()
+gg.searchNumber("1056964608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.processResume()
+gg.refineNumber("1056964608;1056964608::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.processResume()
+revert = gg.getResults(6000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.processResume()
+gg.clearResults()
+end
+
+
+--███████████████████████
+
+
+--███████████████████████
+
+
+--███████████████████████
+
+
+--███████████████████████
+--███████████████████████
+--███████████████████████
+    if v.processName~=GProcess then
+        print("This Script is For:\n    "..GLabel.."\n    "..GProcess.."\nYou Selected:\n    "..v.label.."\n    "..v.processName)
+        gg.setVisible (true) os.exit()
+        return
+    end 
+------------------------------------------------------------------------------
+    if v.x64 then bitx=64 xBITx="[x64]" else bitx=32 xBITx="[x32]" end 
+        print(xBITx)  
+------------------------------------------------------------------------------
+    if xREQ==1 then 
+        if bitx~=xbit then 
+            print("This Script is For "..xbit.."bit Process\nYour Process is "..bitx.."bit")
+            gg.setVisible(true) os.exit()
+            return
+        end 
+    end 
+------------------------------------------------------------------------------
+    if GVersion~=v.versionName then
+        print("This Script is for Game Version:\n    "..GVersion.."\nYour Game Version is:\n    "..v.versionName) 
+        gg.setVisible(true) os.exit() 
+        return
+    end 
+------------------------------------------------------------------------------
+nLD=v.nativeLibraryDir 
+    if not string.match(nLD,"/lib/arm") then 
+        print("<< PC x86 >>")
+        gg.alert("## WARNING x86 ##\n\nx86 bit Discovered.\nScript is not Written for PC. \nHacks May / MayNot Work Correctly","OK","X86",xTAGx) 
+    end 
+--███████████████████████
+    if LibResult==1 then 
+        libx=gg.GetRangesList()
+            if #(libx)==0 then 
+                print("×× LIB ERROR #01 ××\nNo Libs Found\nTry a Different Virtual Environment \nor Try a Better Game Installation Methof\nor Download Game From 'apkcombo.com' ")
+                gg.setVisible(true) os.exit()
+                return
+            end
+        libx=gg.GetRangesList("libil2cpp.so")
+            if #(libx)==0 then  
+                print("×× LIB ERROR #01 ××\nNo Libs Found\nTry a Different Virtual Environment \nor Try a Better Game Installation Methof\nor Download Game From 'apkcombo.com' ")
+                gg.setVisible(true) os.exit()
+                return
+            end
+            xlibn=0 xLibRes=0 
+            for i, v in ipairs(libx) do
+            xlibn=xlibn+1
+                if libx[i].state=="Xa" then 
+                    xXIUx=gg.GetRangesList("libil2cpp.so")[xlibn].start
+                    xLibRes=1
+                end
+            end
+            
+            if xLibRes==0 then 
+            print("## No Lib in [Xa] ##") 
+            xlibn=0 xlibt={}
+                for i, v in ipairs(libx) do 
+                xlibn=xlibn+1
+                xlibt[i]=xlibn.."= [ "..libx[i].state.." ] Size = "..tonumber(libx[i]['end'])-tonumber(libx[i].start)                
+                end
+            xlibres=tostring(table.concat(xlibt,"\n\n"))
+            ::SELLIB::
+            ifellib=gg.prompt({
+                "## ERROR ##\nlibil2cpp.so in Xa was Not found\nEnter the Number of the Lib you want from the list below.\n*** Accurate Script Hacks not Guaranteed ***",
+                xlibres},nil,{[1]="number", [2]="checkbox"})
+                if ifellib==nil then print("Script Cancelled by User\nNo Lib Selected") gg.setVisible(true) os.exit() return end
+                if #(ifellib[1])==0 then gg.toast("INCOMPLETE") goto SELLIB return end 
+                if type(tonumber(ifellib[1]))~="number" then gg.toast("INVALID NUMBER") goto SELLIB return end
+            xlibn=tonumber(ifellib[1])
+            xXIUx=gg.GetRangesList("libil2cpp.so")[xlibn].start
+            print("## libil2cpp.so["..xlibn.."].start Manually Selected by User ##")
+            print("## "..tostring(xlibt[xlibn]).." ##") 
+            xLibRes=1                                 
+            end           
+    end 
+--███████████████████████
+function arm()
+o=tonumber(o) 
+xdump=nil xdump={} 
+xdump[1]={} xdump[2]={}
+xdump[1].address=xXIUx + o
+xdump[1].flags=4
+    if x==0 then xdump[1].value=xfalse end
+    if x==1 then xdump[1].value=xtrue end
+    if x~=0 and x~=1 then xdump[1].value=x end 
+xdump[2].address=xXIUx+(o+4)
+xdump[2].flags=4
+xdump[2].value=xEND 
+gg.setValues(xdump) 
+end 
+------------------------------------------------------------------------------  
+function revert()
+REVERT=nil REVERT={} xRx=nil xRx=1 
+    for i, v in ipairs(ORIG) do
+        if tonumber(xXIUx+o)==ORIG[i].address then
+            REVERT[xRx]={}
+            REVERT[xRx].address=xXIUx+o
+            REVERT[xRx].flags=4
+            REVERT[xRx].value=ORIG[i].value
+            xRx=xRx+1
+            REVERT[xRx]={}
+            REVERT[xRx].address=xXIUx+o+4
+            REVERT[xRx].flags=4
+            REVERT[xRx].value=ORIG[i+1].value
+            gg.setValues(REVERT) 
+            break
+        end
+    xRx=xRx+1
+    end 
+end 
+--███████████████████████
+if v.x64 then
+xtrue="h200080D2" -- MOV X0, #0x1
+xfalse="h000080D2" -- MOV X0, #0x0 
+xEND="hC0035FD6" -- RET
+else 
+xtrue="h0100A0E3" -- MOVW R0, #1 
+xfalse="h0000A0E3" -- MOVW R0, #0 
+xEND="h1EFF2FE1" -- BX LR 
+end 
+------------------------------------------------------------------------------  
+if xREV==1 then
+xRx=1 ORIG={} xREV={} 
+    for i, v in ipairs(I) do
+        ORIG[xRx]={}
+        ORIG[xRx].address=xXIUx+tonumber(I[i])
+        ORIG[xRx].flags=4 
+        xRx=xRx+1 
+        ORIG[xRx]={}
+        ORIG[xRx].address=xXIUx+tonumber(I[i])+4
+        ORIG[xRx].flags=4 
+        xRx=xRx+1
+    end
+ORIG=gg.getValues(ORIG) 
+end 
+--███████████████████████
+
+--███████████████████████
+function cancel()
+gg.toast("CANCELLED")
+gg.sleep(1500)
+end 
+
+function exit()
+gg.getListItems()
+gg.clearList()
+gg.getResults(gg.getResultsCount())
+gg.clearResults()
+gg.toast("[ EXIT ]")  
+    if xhaX~=nil then 
+        print(printx) 
+        print("Script Feature:")
+        print("- High Damage")
+        print("- High Defense")
+        print("- Speed")
+        print("- MLB All Character")
+        print("- Training All Character")
+        print("- No Cooldown Skill")
+        print("- Wallhack")
+        print(printx)  
+    end 
+gg.setVisible(true) 
+os.exit()
+return
+end 
+--███████████████████████
+while true do
+    if gg.isVisible() then
+        gg.setVisible(false) 
+        cantik() 
+    else
+        if xiu==1 then
+            gg.setVisible(false) 
+            cantik()
+        end 
+    end 
+end 
